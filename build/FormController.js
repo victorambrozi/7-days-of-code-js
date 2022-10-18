@@ -10,4 +10,4 @@ class Form {
         console.log("previniu...");
     }
 }
-exports.Form = Form;
+exports.default = Form;

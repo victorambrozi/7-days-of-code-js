@@ -1,7 +1,7 @@
-import { Form } from "./FormController";
+import  Form  from "./FormController";
 
-// const button = document.getElementById("js-button");
+const button = document.getElementById("js-button");
 
 const form = new Form("nome", "data");
 
-// console.log(form.onSubmit)
+console.log(button)

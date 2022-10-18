@@ -1,4 +1,4 @@
-export class Form {
+export default class Form {
   name: string;
   date: string;
 
