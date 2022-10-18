@@ -1,16 +1,15 @@
 export default class Form {
-  name: string;
-  date: string;
 
-  constructor(name:string, date: string){
-    this.name = name;
-    this.date = date;
+  constructor() {
+
   }
 
   onSubmit(event: any): void {
+    const name = document.getElementById("name") as HTMLInputElement;
+    const date = document.getElementById("birth-date") as HTMLInputElement;
     event.preventDefault();
-    
-    
+
+    console.log(name.value, date.value)
     
   }
 }
