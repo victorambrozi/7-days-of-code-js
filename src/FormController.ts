@@ -7,8 +7,10 @@ export default class Form {
     this.date = date;
   }
 
-  onSubmit(event: Event): void {
+  onSubmit(event: any): void {
     event.preventDefault();
-    console.log("previniu...")
+    
+    
+    
   }
 }

@@ -1,1 +1,1 @@
-(()=>{"use strict";const t=function(){function t(t,n){this.name=t,this.date=n}return t.prototype.onSubmit=function(t){t.preventDefault(),console.log("previniu...")},t}();var n=document.getElementById("js-button");new t("nome","data"),console.log(n)})();
+(()=>{"use strict";const t=function(){function t(t,n){this.name=t,this.date=n}return t.prototype.onSubmit=function(t){t.preventDefault()},t}();var n=document.querySelector(".js-form"),e=new t("nome","data");null==n||n.addEventListener("submit",(function(t){return e.onSubmit(t)}))})();

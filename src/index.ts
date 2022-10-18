@@ -1,7 +1,7 @@
 import  Form  from "./FormController";
 
-const button = document.getElementById("js-button");
+const formElement = document.querySelector(".js-form");
 
 const form = new Form("nome", "data");
 
-console.log(button)
+formElement?.addEventListener("submit", (event) => form.onSubmit(event))
